@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DA4B9979FA737A2BEE0BCFA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30474927C47A9CF66286CB37 /* libPods.a */; };
 		C502C1E61B8224B80081728C /* PromoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C502C1E51B8224B80081728C /* PromoManager.swift */; };
 		C548563C1B7FA6670026F759 /* HutNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C548563B1B7FA6670026F759 /* HutNavigationItem.swift */; };
 		C548563E1B7FA6BA0026F759 /* PromocaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C548563D1B7FA6BA0026F759 /* PromocaoViewController.swift */; };
@@ -20,6 +19,7 @@
 		C5C617351B7F90C4002F99EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C617341B7F90C4002F99EA /* Images.xcassets */; };
 		C5C617381B7F90C4002F99EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C617361B7F90C4002F99EA /* LaunchScreen.xib */; };
 		C5C617441B7F90C5002F99EA /* PromoHutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C617431B7F90C5002F99EA /* PromoHutTests.swift */; };
+		FA7EF17E5494F1A758A1429B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DC186E865DD73CEB9919E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30474927C47A9CF66286CB37 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		348DC186E865DD73CEB9919E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C502C1E51B8224B80081728C /* PromoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoManager.swift; sourceTree = "<group>"; };
 		C548563B1B7FA6670026F759 /* HutNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HutNavigationItem.swift; sourceTree = "<group>"; };
 		C548563D1B7FA6BA0026F759 /* PromocaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromocaoViewController.swift; sourceTree = "<group>"; };
 		C54856411B7FA7780026F759 /* CardapioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardapioViewController.swift; sourceTree = "<group>"; };
 		C54856431B7FA79E0026F759 /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		C54856451B7FAECC0026F759 /* HutTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HutTabBar.swift; sourceTree = "<group>"; };
+		C5584CCD1B8241D600E98597 /* PromoHut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PromoHut-Bridging-Header.h"; sourceTree = "<group>"; };
 		C58512681B820A0200532F98 /* HutImageViewRounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HutImageViewRounded.swift; sourceTree = "<group>"; };
 		C5C617281B7F90C4002F99EA /* PromoHut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromoHut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C6172C1B7F90C4002F99EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA4B9979FA737A2BEE0BCFA /* libPods.a in Frameworks */,
+				FA7EF17E5494F1A758A1429B /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +150,7 @@
 				C548563B1B7FA6670026F759 /* HutNavigationItem.swift */,
 				C54856451B7FAECC0026F759 /* HutTabBar.swift */,
 				C5C6172C1B7F90C4002F99EA /* Info.plist */,
+				C5584CCD1B8241D600E98597 /* PromoHut-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,7 +175,7 @@
 		CEE669D39CF8366E2450FE9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30474927C47A9CF66286CB37 /* libPods.a */,
+				348DC186E865DD73CEB9919E /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,6 +192,7 @@
 				C5C617251B7F90C4002F99EA /* Frameworks */,
 				C5C617261B7F90C4002F99EA /* Resources */,
 				CADCFD2D13B5F9FBCDC02180 /* Copy Pods Resources */,
+				766A25737D767D2156BC32A0 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +293,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		766A25737D767D2156BC32A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CADCFD2D13B5F9FBCDC02180 /* Copy Pods Resources */ = {
@@ -449,9 +467,12 @@
 			baseConfigurationReference = EAC687E6201D129CCD00A874 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PromoHut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PromoHut/PromoHut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -460,9 +481,11 @@
 			baseConfigurationReference = C6FBFA8D5E8EB91E767A666A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PromoHut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PromoHut/PromoHut-Bridging-Header.h";
 			};
 			name = Release;
 		};

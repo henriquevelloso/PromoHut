@@ -8,6 +8,6 @@
 
 import UIKit
 
-class PromoManager: NSObject {
+class PromoManager: PFObject {
 
 }
