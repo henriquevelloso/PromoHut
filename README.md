@@ -1,3 +1,3 @@
-# PromoHut
+# PromoHut - POA
 Promoções diárias da PizzaHut Porto Alegre
-# PromoHut
+iOS - Swift
